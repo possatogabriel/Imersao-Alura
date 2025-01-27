@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 300px;
+}
+
+.sidebar__navigation, .library {
+    background-color: #100f0f;
+    border-radius: 8px;
+    padding: 12px 12px 0 12px;
+}
+
+.sidebar__navigation .logo {
+    background-color: #100f0f;
+    display: flex;
+    border-radius: 8px;
+    padding: 5px 0 0 5px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.sidebar__navigation nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 0;
+}
+
+.sidebar__navigation ul li {
+    padding: 10px;
+}
+
+.sidebar__navigation nav ul a {
+    color: #cac8c8;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar__navigation nav ul a:hover, .library__button-icons:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.library {
+    margin-top: 10px;
+    /* 
+    OS ITENS ABAIXO JÁ ESTÃO INSERIDOS COM OUTRA CLASSE (.sidebar__navigation) PARA EVITAR REPETIÇÃO NO CÓDIGO
+
+    background-color: #100f0f;
+    border-radius: 8px;
+    padding: 12px 12px 0 12px;
+    */
+}
+
+.library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library__button {
+    background-color: transparent;
+    color: #cac8c8;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+/* 
+OS ITENS ABAIXO JÁ ESTÃO INSERIDOS COM OUTRA CLASSE (.sidebar__navigation nav ul a:hover) PARA EVITAR REPETIÇÃO NO CÓDIGO
+
+.library__button-icons:hover {
+    cursor: pointer;
+    color: white;
+}
+*/
+
+.library__button-icons .fa-book{
+    padding-right: 8px;
+}
+
+
