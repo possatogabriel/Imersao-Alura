@@ -13,7 +13,7 @@ Esse projeto replica a **tela inicial do Spotify**, mas com espaço para altera�
 
 ## 🔗 Link para vizualização
 
-<a href = "?"> <img alt="Badge de Clique Aqui" src="https://img.shields.io/badge/CLIQUE%20AQUI-blue?style=for-the-badge"> </a>
+<a href = "https://imersao-alura-sigma-khaki.vercel.app/"> <img alt="Badge de Clique Aqui" src="https://img.shields.io/badge/CLIQUE%20AQUI-blue?style=for-the-badge"> </a>
 
 ## 💻 Tecnologias Utilizadas
 `Trabalhado durante o curso (até o momento):`
