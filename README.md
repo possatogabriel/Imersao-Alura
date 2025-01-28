@@ -1,6 +1,6 @@
-# 🧩 Imersão Front-End
+# 📞 Imersão Front-End
 
-<img src = "icons/Demonstração.png" alt = "Imagem da demonstração do site"/>
+<img src = "./icons/Demonstrações/Demonstração2.png" alt = "Imagem da demonstração do site"/>
 
 ## 📰 Descrição
 
@@ -8,12 +8,12 @@ Projeto da segunda edição da **"Imersão Front-End"** da Alura, desenvolvido d
 
 Esse projeto replica a **tela inicial do Spotify**, mas com espaço para alterações pessoais e individuais 
 
-> O desafio proposto na primeira aula (27/01) já foi realizado, sendo ele: fazer o "cabeçalho" da aba da Biblioteca
-> - Além das alterações pessoais ao código como um todo, já há uma implementação (individual e opcional) onde, **ao passar o mouse por cima dos "botões", sua cor muda**
+> Os desafios propostos nas duas primeiras aulas já foram realizados (*individualmente*), sendo eles: **"cabeçalho" da aba Sua Biblioteca e "footer" do site** 
+> - Alguns detalhes foram mudados/adicionados *opcionalmente*, sendo eles: **site agora completamente vermelho e mudança no estilo dos "botões" ao passar mouse por cima**
 
 ## 🔗 Link para vizualização
 
-<a href = "https://imersao-alura-sigma-khaki.vercel.app/"> <img alt="Badge de Clique Aqui" src="https://img.shields.io/badge/CLIQUE%20AQUI-blue?style=for-the-badge"> </a>
+<a href = "https://imersao-alura-sigma-khaki.vercel.app/"> <img alt="Badge de Clique Aqui" src="https://img.shields.io/badge/CLIQUE%20AQUI-red?style=for-the-badge"> </a>
 
 ## 💻 Tecnologias Utilizadas
 `Trabalhado durante o curso (até o momento):`

@@ -10,45 +10,90 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
 </head>
 <body>
-    <div class = "sidebar"> 
-        <nav class = "sidebar__navigation"> 
-            <nav> 
-                <div class = "logo"> 
-                    <a href = "">
-                        <img src = "./icons/logo-spotify.png" alt = "Logo do Spotify">
-                    </a>
-                </div>
-                <ul>
-                    <li> 
+    <header> </header>
+    <main> 
+        <div id = "sidebar">
+            <nav id = "sidebar__navigation" class = "elements__background"> 
+
+                <nav> 
+                    <div id = "sidebar__logo"> 
                         <a href = "">
-                            <span class = "fa fa-home"> </span>
-                            <span> Início </span>
-                        </a> 
-                    </li>
-                    <li> 
-                        <a href = "">
-                            <span class = "fa fa-search"> </span>
-                            <span> Buscar </span>
-                        </a> 
-                    </li>
-                </ul>      
-            </nav>
-        </nav>
-        <div class = "library">
-            <div class = "library__content">
-                <button class = "library__button"> 
-                    <div class = "library__button-icons"> 
-                        <span class = "fa fa-book"> </span>
-                        <span> Sua Biblioteca </span>
-                    </div> 
-                </button>
-                <button class = "library__button">
-                    <div class = "library__button-icons"> 
-                        <span class = "fa fa-plus"> </span>
+                            <img src = "./icons/logo-spotify.png" alt = "Logo do Spotify">
+                        </a>
                     </div>
-                </button>
-            </div> 
+
+                    <ul>
+                        <li> 
+                            <a href = "" class = "sidebar__navigation-text elements__hover">
+                                <span class = "fa fa-home"> </span>
+                                <span> Início </span>
+                            </a> 
+                        </li>
+                        <li> 
+                            <a href = "" class = "sidebar__navigation-text elements__hover">
+                                <span class = "fa fa-search"> </span>
+                                <span> Buscar </span>
+                            </a> 
+                        </li>
+                    </ul>  
+                </nav>
+
+            </nav>
+            <div id = "library" class = "elements__background">
+
+                <div id = "library__content">
+                    <button class = "library__button"> 
+                        <div class = "elements__hover"> 
+                            <span class = "fa fa-book"> </span>
+                            <span> Sua Biblioteca </span>
+                        </div> 
+                    </button>
+                    <button class = "library__button">
+                        <div class = "elements__hover"> 
+                            <span class = "fa fa-plus"> </span>
+                        </div>
+                    </button>
+                </div>
+
+                <section id = "section-playlist"> 
+                    <div id = "section-playlist__content">
+                        <span class = "section-playlist__text" id = "section-playlist__title"> Crie sua primeira playlist </span>
+                        <span class = "section-playlist__text" id = "section-playlist__subtitle"> É fácil, vamos te ajudar. </span>
+
+                        <button id = "section-playlist__button"> 
+                            <span> Criar playlist </span>
+                        </button>
+                    </div>
+                </section>
+
+                <div id = "cookies"> 
+                    <a href = ""> Cookies </a>
+                </div>
+
+                <div id = "languages"> 
+                    <button id = "languages__button"> 
+                        <span class = "fa fa-globe"> </span> 
+                        <span> Português do Brasil </span>
+                    </button>
+                </div>
+
+            </div>
+            
         </div>
-    </div>
+    </main>
+    <footer> 
+
+        <div class = "footer__content">
+            <div class = "footer__content-text"> 
+                <span class = "footer__content-title"> TESTAR O PREMIUM DE GRAÇA </span>
+                <span class = "footer__content-subtitle"> Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito. </span>
+            </div>
+
+            <button class = "footer__content-button"> 
+                Inscreva-se grátis 
+            </button>
+        </div>
+
+    </footer>
 </body>
 </html>
