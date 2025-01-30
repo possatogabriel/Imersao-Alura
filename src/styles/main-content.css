@@ -1,0 +1,145 @@
+#main-container {
+    max-width: 83vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+#header {
+    background-color: var(--color-elements);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#header__navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrows__buttons {
+    background-color: #350101;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+}
+
+.arrows__icons {
+    color: var(--color-elements-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.arrows__buttons:hover .arrows__icons, .arrows__buttons:hover {
+    background-color: #731f1f;
+    color: var(--color-elements-text_hover);
+}
+
+#header__search {
+    background-color: #932626;
+    border-radius: 500px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+}
+
+#header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+#search-input {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+    padding: 0px 100px 0 12px;
+}
+
+#header__login {
+    display: flex;
+    align-items: center;
+}
+
+#subscribe {
+    background-color: transparent;
+    border: none;
+    color: var(--color-elements-text);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 32px;
+    
+}
+
+#subscribe:hover {
+    color: var(--color-elements-text_hover);
+}
+
+#login {
+    border: none;
+    border-radius: 40px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100px;
+    height: 48px;
+}
+
+#login:hover {
+    background-color: var(--color-elements-buttons_hover);
+    font-size: 17px;
+    width: 102px;
+    height: 50px;
+}
+
+#playlist-container {
+    background-color: var(--color-elements);
+    border-radius: 8px;
+    height: 78vh;
+    padding: 10px;
+    margin: 10px;
+}
+
+#playlists {
+    display: flex;
+    flex-direction: column;
+}
+
+.greetings {
+    color: #ffffff;
+    font-weight: 700;
+    padding: 20px 0 0 20px;
+}
+
+#greeting-title {
+    font-size: 34px;
+    margin-bottom: 48px;
+}
+
+#greeting-subtitle {
+    font-size: 24px;
+}

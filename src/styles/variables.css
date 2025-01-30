@@ -1,0 +1,16 @@
+:root {
+    /* FONT DO SITE */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COR DO FUNDO DAS ABAS */
+    --color-elements: #6c0202;
+
+    /* COR DOS TEXTOS CLICÁVEIS DAS ABAS */
+    --color-elements-text: #cac8c8;
+
+    /* COR AO PASSAR O MOUSE POR CIMA DOS TEXTOS CLICÁVEIS */
+    --color-elements-text_hover: #ffffff;
+
+    /* COR DO FUNDO DOS BOTÕES DE "Criar playlist" E "Inscreva-se grátis" AO PASSAR O MOUSE POR CIMA */
+    --color-elements-buttons_hover: #d4d4d4; 
+}

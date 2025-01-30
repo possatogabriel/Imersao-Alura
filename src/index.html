@@ -4,33 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Imersão Front-End </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="./styles/header-footer.css">
+    <link rel="stylesheet" href="./styles/main-content.css">
+    <link rel="stylesheet" href="./styles/variables.css"
 </head>
 <body>
-    <header> </header>
-    <main> 
+    <header> 
         <div id = "sidebar">
-            <nav id = "sidebar__navigation" class = "elements__background"> 
+            <nav id = "sidebar__navigation" class = "elements__sidebar"> 
 
                 <nav> 
-                    <div id = "sidebar__logo"> 
+                    <div id = "navigation__logo"> 
                         <a href = "">
-                            <img src = "./icons/logo-spotify.png" alt = "Logo do Spotify">
+                            <img src = "./assets/icons/logo-spotify.png" alt = "Logo do Spotify">
                         </a>
                     </div>
-
                     <ul>
                         <li> 
-                            <a href = "" class = "sidebar__navigation-text elements__hover">
+                            <a href = "" class = "navigation-text">
                                 <span class = "fa fa-home"> </span>
                                 <span> Início </span>
                             </a> 
                         </li>
                         <li> 
-                            <a href = "" class = "sidebar__navigation-text elements__hover">
+                            <a href = "" class = "navigation-text">
                                 <span class = "fa fa-search"> </span>
                                 <span> Buscar </span>
                             </a> 
@@ -39,37 +39,34 @@
                 </nav>
 
             </nav>
-            <div id = "library" class = "elements__background">
+
+            <div id = "sidebar__library" class = "elements__sidebar">
 
                 <div id = "library__content">
                     <button class = "library__button"> 
-                        <div class = "elements__hover"> 
+                        <div class = "library__button-text"> 
                             <span class = "fa fa-book"> </span>
                             <span> Sua Biblioteca </span>
                         </div> 
                     </button>
                     <button class = "library__button">
-                        <div class = "elements__hover"> 
+                        <div class = "library__button-text"> 
                             <span class = "fa fa-plus"> </span>
                         </div>
                     </button>
                 </div>
-
                 <section id = "section-playlist"> 
                     <div id = "section-playlist__content">
                         <span class = "section-playlist__text" id = "section-playlist__title"> Crie sua primeira playlist </span>
                         <span class = "section-playlist__text" id = "section-playlist__subtitle"> É fácil, vamos te ajudar. </span>
-
                         <button id = "section-playlist__button"> 
                             <span> Criar playlist </span>
                         </button>
                     </div>
                 </section>
-
                 <div id = "cookies"> 
                     <a href = ""> Cookies </a>
                 </div>
-
                 <div id = "languages"> 
                     <button id = "languages__button"> 
                         <span class = "fa fa-globe"> </span> 
@@ -80,7 +77,46 @@
             </div>
             
         </div>
+    </header>
+
+    <main> 
+        <div id = "main-container"> 
+            <nav id = "header"> 
+                <div id = "header__navigation">
+                    <button id = "arrow-left" class = "arrows__buttons">
+                        <span class = "arrows__icons fa fa-angle-left"> </span>   
+                    </button>
+                    <button id = "arrow-right" class = "arrows__buttons">
+                        <span class = "arrows__icons fa fa-angle-right"> </span>
+                    </button>
+                </div>
+
+                <div id = "header__search">
+                    <img src = "./assets/icons/search.png" alt = "">
+                    <input id = "search-input" type = "text" maxlength = "800" placeholder = "O que você quer ouvir?">
+                </div>
+
+                <div id = "header__login"> 
+                    <button id =  "subscribe">
+                        Inscreva-se
+                    </button>
+                    <button id = "login"> 
+                        Entrar
+                    </button>
+                </div>
+            </nav>
+
+            <div id = "playlist-container"> 
+                <div id = "search-playlists">
+                    <div id = "playlists"> 
+                        <span id = "greeting-title" class = "greetings"> Boa noite </span>
+                        <span id = "greeting-subtitle" class = "greetings"> Navegar por todas as seções </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
     <footer> 
 
         <div class = "footer__content">

@@ -1,6 +1,6 @@
 # 📞 Imersão Front-End
 
-<img src = "./icons/Demonstrações/Demonstração2.png" alt = "Imagem da demonstração do site"/>
+<img src = "./src/assets/img/Demonstração3.png" alt = "Imagem da demonstração do site"/>
 
 ## 📰 Descrição
 
@@ -8,8 +8,8 @@ Projeto da segunda edição da **"Imersão Front-End"** da Alura, desenvolvido d
 
 Esse projeto replica a **tela inicial do Spotify**, mas com espaço para alterações pessoais e individuais 
 
-> Os desafios propostos nas duas primeiras aulas já foram realizados (*individualmente*), sendo eles: **"cabeçalho" da aba Sua Biblioteca e "footer" do site** 
-> - Alguns detalhes foram mudados/adicionados *opcionalmente*, sendo eles: **site agora completamente vermelho e mudança no estilo dos "botões" ao passar mouse por cima**
+> Os desafios propostos nas três aulas já foram realizados (*individualmente*), sendo eles: **"cabeçalho" da aba Sua Biblioteca, "footer" do site e mensagens na tela das playlists**  
+> - Além de mudanças pessoais ao código como um todo, alguns detalhes também foram mudados/adicionados *opcionalmente*, sendo eles: **site agora completamente vermelho e mudança no estilo dos botões e textos clicáveis ao passar mouse por cima**
 
 ## 🔗 Link para vizualização
 
@@ -24,4 +24,4 @@ Esse projeto replica a **tela inicial do Spotify**, mas com espaço para altera�
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/136634888?v=4" width=80 alt = "Ícone da Foto de Perfil"> <br> <sub> Gabriel Possato </sub>](https://github.com/possatogabriel)
 <br>
 <br>
-<p align = "center"> <img alt="Badge de Concluído" src="https://img.shields.io/badge/STATUS%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-em desenvolvimento-blue?style=for-the-badge"> <br/> <img src = "icons/alura1.png" height = "50" alt = "Logo da Alura"></p>
+<p align = "center"> <img alt="Badge de Concluído" src="https://img.shields.io/badge/STATUS%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-em desenvolvimento-blue?style=for-the-badge"> <br/> <img src = "./src/assets/img/alura1.png" height = "50" alt = "Logo da Alura"></p>

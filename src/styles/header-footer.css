@@ -1,5 +1,6 @@
 body {
     background-color: #350101;
+    font-family: var(--font-dm-sans);
 }
 
 #sidebar {
@@ -11,19 +12,19 @@ body {
     width: 300px;
 }
 
-.elements__background {
-    background-color: #6c0202;
+.elements__sidebar {
+    background-color: var(--color-elements);
     border-radius: 8px;
     padding: 12px 12px 0 12px;
 }
 
-#sidebar__navigation #sidebar__logo {
+#navigation__logo {
     display: flex;
     border-radius: 8px;
     padding: 5px 0 0 5px;
 }
 
-#sidebar__logo img {
+#navigation__logo img {
     width: 100px;
 }
 
@@ -36,19 +37,17 @@ body {
     padding: 10px;
 }
 
-.sidebar__navigation-text {
-    color: #cac8c8;
-    font-family: "DM Sans", sans-serif;
+.navigation-text {
+    color: var(--color-elements-text);
     font-size: 15px;
     text-decoration: none;
 }
 
-.elements__hover:hover {
-    color: white;
-    cursor: pointer;
+.navigation-text:hover {
+    color: var(--color-elements-text_hover);
 }
 
-#library {
+#sidebar__library {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,13 +62,18 @@ body {
 .library__button {
     background-color: transparent;
     border: none;
-    color: #cac8c8;
+    color: var(--color-elements-text);
+    cursor: pointer;
     font-size: 18px;
     font-weight: 700;
     padding: 10px;
 }
 
-.library__button .fa-book{
+.library__button-text:hover {
+    color: var(--color-elements-text_hover);
+}
+
+.library__button-text .fa-book{
     padding-right: 8px;
 }
 
@@ -80,7 +84,6 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    font-family: "DM Sans", sans-serif;
     font-size: 14px;
     padding: 16px 20px;
     margin: 10px 0;
@@ -92,7 +95,7 @@ body {
 }
 
 .section-playlist__text {
-    color: white;
+    color: #ffffff;
     padding-bottom: 15px;
 }
 
@@ -107,6 +110,7 @@ body {
 #section-playlist__button {
     border: none;
     border-radius: 100px;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     width: 100px;
@@ -117,8 +121,7 @@ body {
 }
 
 #section-playlist__button:hover {
-    background-color: #d4d4d4;
-    cursor: pointer;
+    background-color: var(--color-elements-buttons_hover);
     font-size: 13px;
     width: 103px;   
 }
@@ -128,14 +131,13 @@ body {
 }
 
 #cookies a {
-    color: #cac8c8;
-    font-family: "DM Sans", sans-serif;
+    color: var(--color-elements-text);
     font-size: 12px; 
     text-decoration: none;
 }
 
 #cookies a:hover {
-    color: white;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -144,7 +146,8 @@ body {
     border: 1px solid;
     border-color: #787878;
     border-radius: 20px;
-    color: white;
+    color: #ffffff;
+    cursor: pointer;
     font-size: 14px;
     font-weight: bold;
     width: 175px;
@@ -154,8 +157,7 @@ body {
 
 #languages__button:hover {
     border: 1px solid;
-    color: white;
-    cursor: pointer;
+    border-color: #ffffff;
     font-size: 15px;
     width: 185px;
 }
@@ -178,10 +180,9 @@ footer {
 }
 
 .footer__content-text {
-    color: white;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
-    font-family: "DM Sans", sans-serif;
 }
 
 .footer__content-title {
@@ -192,6 +193,7 @@ footer {
 .footer__content-button {
     border: none;
     border-radius: 20px;
+    cursor: pointer;
     font-size: 15px;
     font-weight: 700;
     width: 175px;
@@ -199,8 +201,7 @@ footer {
 }
 
 .footer__content-button:hover {
-    background-color: #d4d4d4;
-    cursor: pointer;
+    background-color: var(--color-elements-buttons_hover);
     font-size: 16px;
     width: 178px;
 }
