@@ -1,0 +1,145 @@
+#header {
+    background-color: var(--color-tabs);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    transition: 0.3s ease;
+}
+
+#header__navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#arrow-left {
+    margin-right: 20px;
+}
+
+.arrow__buttons {
+    background-color: var(--color-arrows);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    transition: 0.3s ease;
+}
+
+.arrow__icons {
+    color: var(--color-text);
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow__buttons:hover, .arrow__buttons:hover .arrow__icons {
+    background-color: var(--color-arrows_hover);
+    color: var(--color-text_hover);
+    transition: 0.3s ease;
+}
+
+#header__search {
+    background-color: var(--color-input);
+    border-radius: 500px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 32px;
+    transition: 0.3s ease;
+}
+
+#header__search .fa-search {
+    color: var(--color-text);
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+#header__search:focus-within {
+    border-color: var(--color-input_border);
+    transition: 0.3s ease;
+
+    .fa-search {
+        color: var(--color-text_hover);
+    }
+}
+
+#search-input {
+    background: transparent;
+    border: none;
+    color: var(--color-titles);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+    padding: 0rem 6.25rem 0 0.65rem;
+}
+
+#header__login {
+    display: flex;
+    align-items: center;
+}
+
+#color__button {
+    border: none;
+    background-color: transparent;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+#color__button .fa-palette {
+    font-size: 16px;
+    color: var(--color-text);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#color__button .fa-palette:hover {
+    color: var(--color-text_hover);
+    transition: 0.3s ease;
+}
+
+#subscribe {
+    background-color: transparent;
+    border: none;
+    color: var(--color-text);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 32px;
+    transition: 0.3s ease;
+}
+
+#subscribe:hover {
+    color: var(--color-text_hover);
+    transition: 0.3s ease;
+}
+
+#login {
+    background-color: var(--color-button);
+    border: none;
+    border-radius: 40px;
+    color: var(--color-button-text);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100px;
+    height: 48px;
+    transition: 0.3s ease;
+}
+
+#login:hover {
+    background-color: var(--color-button_hover);
+    transform: scale(1.04);
+    transition: 0.3s ease;
+}

@@ -1,0 +1,28 @@
+:root {
+    /* FONT DO SITE */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COR PADRÃO */
+    --color-background: #000000;
+    --color-tabs: #0a0a0a;
+    --color-cards: #232323;
+    --color-cards_hover: #313131;
+    --color-playlist: #494848;
+    --color-arrows: #262424;
+    --color-arrows_hover: #3c3a3a;
+    --color-artist_hover: #201f1f;
+    --color-plus_hover: #313131;
+    --color-input: #313131;
+    --color-input_border: #838383;
+    --color-gradient: linear-gradient(to left, #000000, #6e6c6c);
+    
+    /* OUTRAS CORES */
+    --color-artist-category: #6a6a6a;
+    --color-titles: #ffffff;
+    --color-text: #cac8c8;
+    --color-text_hover: #ffffff;
+    --color-button: #ffffff;
+    --color-button-text: #000000;
+    --color-button_hover: #d4d4d4;
+    --color-artist-play: #1db954;
+}

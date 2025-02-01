@@ -1,0 +1,30 @@
+#navigation__logo {
+    display: flex;
+    border-radius: 8px;
+    padding: 5px 0 0 5px;
+}
+
+#navigation__logo img {
+    width: 100px;
+}
+
+#sidebar__navigation nav ul {
+    padding: 0 20px 10px 0;
+    margin-top: 20px;
+}
+
+#sidebar__navigation ul li {
+    padding: 10px;
+}
+
+.navigation-text {
+    color: var(--color-text);
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.navigation-text:hover {
+    color: var(--color-text_hover);
+    transition: 0.3s ease;
+}

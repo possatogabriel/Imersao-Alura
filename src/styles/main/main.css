@@ -1,0 +1,7 @@
+#main-container {
+    position: fixed;
+    top: 0;
+    width: 76vw;
+    height: 100vh;
+    margin-left: 24%;
+}

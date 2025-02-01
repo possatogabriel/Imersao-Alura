@@ -1,0 +1,15 @@
+#sidebar {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    top: 0;
+    padding: 10px;
+    width: 23%;
+    transition: 0.3s ease;
+}
+
+.elements__sidebar {
+    background-color: var(--color-tabs);
+    border-radius: 8px;
+    padding: 12px 12px 0 12px;
+}

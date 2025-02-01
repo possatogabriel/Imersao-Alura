@@ -1,0 +1,103 @@
+#artist-container {
+    padding: 20px 0;
+    margin: 10px 40px 10px 10px;
+}
+
+.hidden {
+    display: none;
+}
+  
+.grid-container {
+    grid-gap: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-width: 767px;
+}
+  
+.artist-card {
+    background: var(--color-tabs);
+    border-radius: 8px;
+    position: relative;
+    isolation: isolate;
+    flex: 1;
+    -ms-flex: 1;
+    padding: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.artist-card:hover {
+    background: var(--color-artist_hover);
+}
+ 
+.artist-card:hover .play .fa-play {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.card-img {
+    position: relative;
+    padding-bottom: 100%;
+    margin-bottom: 16px;
+    width: 100%;
+}
+  
+.artist-img {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.play {
+    position: relative;
+}
+  
+.play .fa-play {
+    background-color: var(--color-artist-play);
+    border-radius: 100%;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 280px;
+    opacity: 0;
+    padding: 18px;
+    transition: all ease 0.4s;
+}
+
+.play .fa-play:hover {
+    cursor: pointer;
+    padding: 20px;
+}
+  
+.card-text {
+    color: var(--color-titles);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+}
+  
+.card-text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+  
+.artist-name {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 700;
+    padding-block-end: 8px;
+    margin-block: 0px;
+}
+  
+.artist-category {
+    color: var(--color-artist-category); 
+    font-size: 0.875rem;
+    font-weight: 400;
+}
