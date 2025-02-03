@@ -44,7 +44,7 @@ Gostaria de finalizar agradencendo a **Alura** pelo incrível projeto (**complet
 > Apesar de ter descoberto minha paixão por Java na área de back-end, ainda há implementações que gostaria de fazer aqui 😅: 
 > - **Mudança do código para React** 
 > - Adição de links de redirecionamento ao clicar nos diversos itens
-> - Implementação de uma nova e melhor API,
+> - Implementação de uma nova e melhor API
 > - Melhor responsividade
 
 ## 🙋 Autores
